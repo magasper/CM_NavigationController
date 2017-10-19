@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4808C6921F982C8300980BE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808C6911F982C8300980BE7 /* main.m */; };
 		4808C6951F982C8300980BE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808C6941F982C8300980BE7 /* AppDelegate.m */; };
-		4808C6981F982C8300980BE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808C6971F982C8300980BE7 /* ViewController.m */; };
+		4808C6981F982C8300980BE7 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 4808C6971F982C8300980BE7 /* Home.m */; };
 		4808C69B1F982C8300980BE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4808C6991F982C8300980BE7 /* Main.storyboard */; };
 		4808C69E1F982C8300980BE7 /* Navigation_Controller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4808C69C1F982C8300980BE7 /* Navigation_Controller.xcdatamodeld */; };
 		4808C6A01F982C8300980BE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4808C69F1F982C8300980BE7 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		4808C6911F982C8300980BE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4808C6931F982C8300980BE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4808C6941F982C8300980BE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4808C6961F982C8300980BE7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4808C6971F982C8300980BE7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4808C6961F982C8300980BE7 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		4808C6971F982C8300980BE7 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		4808C69A1F982C8300980BE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4808C69D1F982C8300980BE7 /* Navigation_Controller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Navigation_Controller.xcdatamodel; sourceTree = "<group>"; };
 		4808C69F1F982C8300980BE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,10 +60,8 @@
 		4808C68F1F982C8300980BE7 /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4808C6931F982C8300980BE7 /* AppDelegate.h */,
-				4808C6941F982C8300980BE7 /* AppDelegate.m */,
-				4808C6961F982C8300980BE7 /* ViewController.h */,
-				4808C6971F982C8300980BE7 /* ViewController.m */,
+				4808C6AB1F982C9900980BE7 /* Main */,
+				4808C6AA1F982C9000980BE7 /* Controller */,
 				4808C6991F982C8300980BE7 /* Main.storyboard */,
 				4808C69F1F982C8300980BE7 /* Assets.xcassets */,
 				4808C6A11F982C8300980BE7 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				4808C6911F982C8300980BE7 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4808C6AA1F982C9000980BE7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4808C6961F982C8300980BE7 /* Home.h */,
+				4808C6971F982C8300980BE7 /* Home.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4808C6AB1F982C9900980BE7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4808C6931F982C8300980BE7 /* AppDelegate.h */,
+				4808C6941F982C8300980BE7 /* AppDelegate.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,7 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4808C6981F982C8300980BE7 /* ViewController.m in Sources */,
+				4808C6981F982C8300980BE7 /* Home.m in Sources */,
 				4808C69E1F982C8300980BE7 /* Navigation_Controller.xcdatamodeld in Sources */,
 				4808C6951F982C8300980BE7 /* AppDelegate.m in Sources */,
 				4808C6921F982C8300980BE7 /* main.m in Sources */,
